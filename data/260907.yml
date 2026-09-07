@@ -5,7 +5,7 @@ about:
   head: 3ec1a40
   archived: false
   latestVersion: "v1.1.28"
-  collectedAt: 2026-09-07T04:32:31Z
+  collectedAt: 2026-09-07T19:50:14Z
 timeline:
   created: 2021-02-04
   lastCommit: 2026-04-19
@@ -79,7 +79,7 @@ total:
   commit: 233
 ---
 path: /home/runner/.x-repo/github.com/iann0036/iamlive
-collectedAt: 2026-09-07T04:32:37Z
+collectedAt: 2026-09-07T19:50:19Z
 loc:
   Json:
     code: 2194798
@@ -102,22 +102,18 @@ total:
   blanks: 483
   files: 1087
 ---
-date: "2026-08-24"
+date: "2026-09-07"
 repo:
   name: github.com/iann0036/iamlive
   commit: 3ec1a40e560c2f00ec82c50223add810e2567efb
 scorecard:
-  version: v5.5.1-0.20260815060127-d1fab88f5463
-  commit: d1fab88f54636ff366076edfc5c239f97b3c8e66
+  version: v5.5.0
+  commit: c395761df6afe1a69e476bc60a013a94bcbc153f
 score: 3
 checks:
   - name: Code-Review
     score: 1
     reason: Found 4/27 approved changesets -- score normalized to 1
-    details: null
-  - name: Maintained
-    score: 0
-    reason: 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
     details: null
   - name: Dangerous-Workflow
     score: 10
@@ -129,6 +125,10 @@ checks:
     details:
       - 'Warn: no topLevel permission defined: .github/workflows/release.yaml:1'
       - 'Info: no jobLevel write permissions found'
+  - name: Maintained
+    score: 0
+    reason: 0 commit(s) and 0 issue activity found in the last 90 days -- score normalized to 0
+    details: null
   - name: CII-Best-Practices
     score: 0
     reason: no effort to earn an OpenSSF best practices badge detected
@@ -158,6 +158,24 @@ checks:
       - 'Warn: third-party GitHubAction not pinned by hash: .github/workflows/release.yaml:28: update your workflow using https://app.stepsecurity.io/secureworkflow/iann0036/iamlive/release.yaml/main?enable=pin'
       - 'Info:   0 out of   2 GitHub-owned GitHubAction dependencies pinned'
       - 'Info:   0 out of   2 third-party GitHubAction dependencies pinned'
+  - name: Packaging
+    score: 10
+    reason: packaging workflow detected
+    details:
+      - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/release.yaml:9'
+  - name: Security-Policy
+    score: 0
+    reason: security policy file not detected
+    details:
+      - 'Warn: no security policy file detected'
+      - 'Warn: no security file to analyze'
+      - 'Warn: no security file to analyze'
+      - 'Warn: no security file to analyze'
+  - name: Branch-Protection
+    score: 0
+    reason: branch protection not enabled on development/release branches
+    details:
+      - 'Warn: branch protection not enabled for branch ''main'''
   - name: Signed-Releases
     score: 0
     reason: Project has not signed or included provenance with any releases.
@@ -172,24 +190,6 @@ checks:
       - 'Warn: release artifact v1.1.26 does not have provenance: https://api.github.com/repos/iann0036/iamlive/releases/231956202'
       - 'Warn: release artifact v1.1.25 does not have provenance: https://api.github.com/repos/iann0036/iamlive/releases/223776777'
       - 'Warn: release artifact v1.1.24 does not have provenance: https://api.github.com/repos/iann0036/iamlive/releases/215143885'
-  - name: Security-Policy
-    score: 0
-    reason: security policy file not detected
-    details:
-      - 'Warn: no security policy file detected'
-      - 'Warn: no security file to analyze'
-      - 'Warn: no security file to analyze'
-      - 'Warn: no security file to analyze'
-  - name: Branch-Protection
-    score: 0
-    reason: branch protection not enabled on development/release branches
-    details:
-      - 'Warn: branch protection not enabled for branch ''main'''
-  - name: Packaging
-    score: 10
-    reason: packaging workflow detected
-    details:
-      - 'Info: Project packages its releases by way of GitHub Actions.: .github/workflows/release.yaml:9'
   - name: SAST
     score: 0
     reason: SAST tool is not run on all commits -- score normalized to 0
@@ -197,7 +197,7 @@ checks:
       - 'Warn: 0 commits out of 7 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T04:32:39+00:00
+  collectedAt: 2026-09-07T19:50:24+00:00
   platform:
     darwin/arm64:
       name:  iamlive_1.1.28_darwin_arm64.tar.gz
