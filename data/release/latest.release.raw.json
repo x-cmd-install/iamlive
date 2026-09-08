@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 10434943,
       "digest": "sha256:ae8b7803e4c979e1042395071a5e560537575f4bf04c9efd0180cf04e1e39b83",
-      "download_count": 697,
+      "download_count": 700,
       "created_at": "2026-04-19T06:54:01Z",
       "updated_at": "2026-04-19T06:54:01Z",
       "browser_download_url": "https://github.com/iann0036/iamlive/releases/download/v1.1.28/iamlive_1.1.28_darwin_arm64.tar.gz"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 9965330,
       "digest": "sha256:aef1d41d27c5b9a513f0b96b9ff5ed0fc9c076cea5b024d50311e6a76aae13f7",
-      "download_count": 2150,
+      "download_count": 2152,
       "created_at": "2026-04-19T06:53:59Z",
       "updated_at": "2026-04-19T06:54:00Z",
       "browser_download_url": "https://github.com/iann0036/iamlive/releases/download/v1.1.28/iamlive_1.1.28_linux_amd64.tar.gz"
