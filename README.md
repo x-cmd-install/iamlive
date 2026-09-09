@@ -7,7 +7,7 @@ Generate an IAM policy from AWS, Azure, or Google Cloud (GCP) calls using client
 - **Latest release**: `v1.1.28` (2026-04-19)
 - **Last commit**: 2026-04-19
 - **License**: MIT
-- **Stars**: 3408 · **Forks**: 119 · **Open issues**: 77 · **Contributors**: 14
+- **Stars**: 3407 · **Forks**: 119 · **Open issues**: 77 · **Contributors**: 14
 
 ## Installation
 
@@ -21,4 +21,4 @@ See <https://x-cmd.com/install/iamlive> for details.
 
 This mirror is auto-maintained by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action). Latest card snapshot: `data/card/260909.yml`. Merged card+release view: `data/latest.report.yml`.
 
-_Last regenerated: 2026-09-09T04:39:18Z._
+_Last regenerated: 2026-09-09T18:59:20Z._
