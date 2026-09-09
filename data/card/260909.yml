@@ -7,7 +7,7 @@ about:
   latestVersion: "v1.1.28"
   latestRelease: "v1.1.28"
   latestPrerelease: "v0.3-beta"
-  collectedAt: 2026-09-09T04:39:07Z
+  collectedAt: 2026-09-09T18:58:39Z
 timeline:
   created: 2021-02-04
   lastCommit: 2026-04-19
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-04-19
   lastPrerelease: 2021-02-05
 popularity:
-  star: 3408
+  star: 3407
   watcher: 20
   fork: 119
   release: 83
@@ -83,7 +83,7 @@ total:
   commit: 233
 ---
 path: /home/runner/.x-repo/github.com/iann0036/iamlive
-collectedAt: 2026-09-09T04:39:13Z
+collectedAt: 2026-09-09T18:59:06Z
 loc:
   Json:
     code: 2194798
