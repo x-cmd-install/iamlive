@@ -22,7 +22,18 @@ x install iamlive
 - **Latest**: `v1.1.28` (2026-04-19)
 - **Last commit**: 2026-04-19
 - **Assets in release**: 7
-- **Published**: 2026-04-19T06:54:03Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [iamlive_1.1.28_checksums.txt](https://github.com/iann0036/iamlive/releases/download/v1.1.28/iamlive_1.1.28_checksums.txt) | 606 B | `other` |
+| [iamlive_1.1.28_darwin_amd64.tar.gz](https://github.com/iann0036/iamlive/releases/download/v1.1.28/iamlive_1.1.28_darwin_amd64.tar.gz) | 10.3 MiB | `native/darwin/x64` |
+| [iamlive_1.1.28_darwin_arm64.tar.gz](https://github.com/iann0036/iamlive/releases/download/v1.1.28/iamlive_1.1.28_darwin_arm64.tar.gz) | 10.0 MiB | `native/darwin/arm64` |
+| [iamlive_1.1.28_linux_amd64.tar.gz](https://github.com/iann0036/iamlive/releases/download/v1.1.28/iamlive_1.1.28_linux_amd64.tar.gz) | 9.5 MiB | `native/linux/x64` |
+| [iamlive_1.1.28_linux_arm64.tar.gz](https://github.com/iann0036/iamlive/releases/download/v1.1.28/iamlive_1.1.28_linux_arm64.tar.gz) | 9.2 MiB | `native/linux/arm64` |
+| [iamlive_1.1.28_windows_amd64.tar.gz](https://github.com/iann0036/iamlive/releases/download/v1.1.28/iamlive_1.1.28_windows_amd64.tar.gz) | 9.6 MiB | `native/win/x64` |
+| [iamlive_1.1.28_windows_arm64.tar.gz](https://github.com/iann0036/iamlive/releases/download/v1.1.28/iamlive_1.1.28_windows_arm64.tar.gz) | 9.2 MiB | `native/win/arm64` |
 
 ## Popularity
 
@@ -65,8 +76,8 @@ Lowest-scoring checks:
 Install metadata for iamlive lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `iamlive` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/iamlive.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/iamlive.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T04:46:09Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T16:22:23Z._
